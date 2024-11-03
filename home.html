@@ -12,20 +12,19 @@
     />
   </head>
   <body>
-
     <div class="container mt-5">
-      <div class="progress">
-        <div class="progress-bar" style="width: 75%">75%</div>
-      </div>
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseExample"
+      >
+        Click Here
+      </button>
 
-      <div class="progress mt-5">
-        <div class="progress-bar progress-bar-striped" style="width: 75%">75%</div>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">Hide comments until button is pressed</div> <!-- This card div is optional -->
       </div>
-
-      <div class="progress mt-5">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%">75%</div>
-      </div>
-
     </div>
 
     <script
